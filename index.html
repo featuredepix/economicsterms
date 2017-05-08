@@ -12,7 +12,7 @@
         <a href="#" class="brand-logo center"><img src="http://www.thomasmooretoymaster.com/ekmps/shops/stephenalford/resources/Design/west-exe.png" alt="West Exe" style="height: 40px; display: inline; margin-right: 15px;">Economics Key Terms</a>
       </div>
     </nav>
-    <div class="container" id="keyterms">
+    <div class="container row" id="keyterms">
     
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -20,17 +20,9 @@
     <script>
       function update(){
         $.getJSON("terms.json", function(data){
-          var counter = 1;
           var toPrint = "";
           $.each(data, function(key, value){
-            if(counter % 1 == 0){
-              toPrint += "<div class='row'>";
-            }
             toPrint += "<div class='col s12 m4'><div class='card hoverable'><div class='card-content'><span class='card-title'>" + key + "</span>" + value + "</div></div></div>";
-            if(counter % 3 == 0){
-              toPrint += "</div>";
-            }
-            counter++;
           });
           $("#keyterms").html(toPrint);
         });
