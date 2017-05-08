@@ -18,7 +18,6 @@
           <form>
             <div class="input-field">
               <input id="search" type="search" onchange="filter(this.value)">
-              <label class="label-icon" for="search"><i class="material-icons">search</i></label>
             </div>
           </form>
         </div>
@@ -39,7 +38,7 @@
           data = sortObject(data);
           var toPrint = "";
           $.each(data, function(key, value){
-            if(value.toLowerCase().includes(filterTerm.toLowerCase()) || key.toLowerCase().includes(filterTerm.toLowerCase()){
+            if(value.toLowerCase().includes(filterTerm.toLowerCase()) || key.toLowerCase().includes(filterTerm.toLowerCase() || filterTerm == ""){
               toPrint += "<div class='col s12'><div class='card hoverable'><div class='card-content'><span class='card-title'>" + key + "</span>" + value + "</div></div></div>";
                }
           });
