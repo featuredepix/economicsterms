@@ -18,11 +18,15 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     <script>
+      function sortObject(o) {
+        return Object.keys(o).sort().reduce((r, k) => (r[k] = o[k], r), {});
+      }
       function update(){
         $.getJSON("terms.json", function(data){
+          data = sortObject(data);
           var toPrint = "";
           $.each(data, function(key, value){
-            toPrint += "<div class='col s12 m4'><div class='card hoverable'><div class='card-content'><span class='card-title'>" + key + "</span>" + value + "</div></div></div>";
+            toPrint += "<div class='col s12'><div class='card hoverable'><div class='card-content'><span class='card-title'>" + key + "</span>" + value + "</div></div></div>";
           });
           $("#keyterms").html(toPrint);
         });
