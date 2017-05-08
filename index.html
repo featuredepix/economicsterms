@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economics Key Words &amp; Terms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Economics Key Terms</a>
+      </div>
+    </nav>
+    <div class="container" id="keyterms">
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script>
+      $.getJSON("terms.json", function(data){
+        var counter = 1;
+        var toPrint = "";
+        $.each(data, function(key, value){
+          if(counter % 1 == 0){
+            toPrint += "<div class='row'>";
+          }
+          toPrint += "<div class='col s12 m4'><div class='card hoverable'><div class='card-content'><span class='card-title'>" + key + "</span>" + value + "</div></div></div>";
+          if(counter % 3 == 0){
+            toPrint += "</div>";
+          }
+          counter++;
+        });
+        $("#keyterms").html(toPrint);
+      });
+    </script>
+  </body>
+</html>
