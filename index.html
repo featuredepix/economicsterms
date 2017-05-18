@@ -26,7 +26,7 @@
           //data = sortObject(data);
           var toPrint = "";
           $.each(data, function(key, value){
-            toPrint += "<div class='col s12'><div class='card hoverable'><div class='card-content'><span class='card-title'>" + key + "</span>" + value + "</div></div></div>";
+            toPrint += "<div class='col s12'><div class='card'><div class='card-content'><span class='card-title'>" + key + "</span>" + value + "</div></div></div>";
           });
           $("#keyterms").html(toPrint);
         });
