@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Economics Key Words &amp; Terms</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <style>
+      .cards-container {
+        column-break-inside: avoid;
+      }
+      .cards-container .card {
+        display: inline-block;
+        overflow: visible;
+      }
+
+      @media only screen and (max-width: 600px) {
+        .cards-container {
+          -webkit-column-count: 1;
+          -moz-column-count: 1;
+          column-count: 1;
+        }
+      }
+      @media only screen and (min-width: 601px) {
+        .cards-container {
+          -webkit-column-count: 2;
+          -moz-column-count: 2;
+          column-count: 2;
+        }
+      }
+      @media only screen and (min-width: 993px) {
+        .cards-container {
+          -webkit-column-count: 3;
+          -moz-column-count: 3;
+          column-count: 3;
+        }
+      }
+    </style>
   </head>
   <body>
     <nav class="green darken-3">
@@ -12,7 +43,7 @@
         <a href="#" class="brand-logo center"><img src="http://www.thomasmooretoymaster.com/ekmps/shops/stephenalford/resources/Design/west-exe.png" alt="West Exe" style="height: 40px; display: inline; margin: 15px 15px 0 0;">Economics Key Terms</a>
       </div>
     </nav>
-    <div class="container row" id="keyterms">
+    <div class="container row cards-container" id="keyterms">
     
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
