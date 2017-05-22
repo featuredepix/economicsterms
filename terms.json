@@ -1,80 +1,472 @@
 {
-  "Macroeconomics":"Is the branch of economics dealing with the performance, structure, behaviour and decision making of an economy as a whole. ",
-  "Microeconomics":"Is the branch of economics involving the behaviour of individuals and firms in making decisions regarding the allocation of limited resources.",
-  "Factors of Production":"What effects the production of a product, good or service.",
-  "Capital":"Man-made physical goods used to produce other goods and services. ",
-  "Enterprise":"People who come up with the initial idea (entrepenurs). They risk their own resources. ",
-  "Land":"The natural resource on the planet. ",
-  "Labour":"The human input into the production process. The UK has about 58 million people of which approximately 35 million are of working age. ",
-  "Productivity":"Output per worker per period of time. ",
-  "Sustainability":"Having a system where all factors are sustainable.",
-  "Primary":"Where the extraction of raw materials takes place. ",
-  "Secondary":"Where raw materials are manufactured into goods. ",
-  "Tertiary":"The service sector. ",
-  "Economies of Scale":"The larger the company is, the cheaper the cost of production.",
-  "Cost":"What money is spent on land, labour, materials etc. ",
-  "Revenue":"The money that is made. ",
-  "Profit":"Total revenue - total cost = PROFIT.",
-  "Demand":"When students ask for cake.",
-  "Lack of Supply":"When Poynsenby doesn't provide cake.",
-  "Supply":"When Poynsenby provides cake.",
-  "Factors that effect demand:":"Factors that can change the demand rate for diffrent goods. ",
-  "Population":"An increase in population leads to an increase of demand. ",
-  "Advertising":"An increase in advertising will make customers more likely to buy a product. ",
-  "Substitutes":"If a substitute good is cheaper than the original people are more likely to buy it. ",
-  "Income":"If income rises so does demand. ",
-  "Fashion and trends":"If something is fashionable or trendy, demand for that product rises. ",
-  "Interest rates":"If interest rates rise people borrowing have less money to spend so demand falls. ",
-  "Complements":"If the price of a product falls, demand for another may rise. ",
-  "Market Economy":"An economy where all the resources are allocates by the forces of demand and supply with a price attached. ",
-  "Basic Economic Problem":"Wants are infinite but resources are not. ",
-  "Market":"Where buyers and sellers exchange goods, this doesn't have to be face to face. ",
-  "Output":"The number of goods or servics produced by a firm. ",
-  "Fixed Costs":"Costs that do not vary with output. ",
-  "Variable Costs":"Costs that vary directly with output. ",
-  "Total Revenue":"The amount a firm receives from selling its product. ",
-  "Technology":"Better tech means better production. ",
-  "Monopoly":"A situation in which there is only one firm selling in a market. ",
-  "Monopoly Power":"Where a firm has 25% of the market share. ",
-  "Merger":"When two companies become one. ",
-  "Branding":"The apperance of the company. This can be used to create brand loyalty. ",
-  "Opportunity Cost":"The next best alternative faregone when making a choice- what you give up when you make a choice. ",
-  "Production":"The process of combining scarce resources to make an output. ",
-  "Productivity":"Output per worker per period of time. ",
-  "Takeover":"Where one company buys another. ",
-  "Intergration":"This occurs when the two firms come together through either a merger or takeover. ",
-  "Cost barriers":"Large firms gain internal economies of scale meaning their average cost is low. ",
-  "Subsidies":"The government gives you money. ",
-  "Weather":"Seasons and weather can affect production. ",
-  "Goods":"Are tangible items - things you touch. ",
-  "Services":"Something that is provided for you. It is intangible.",
-  "Needs":"Something needed for survival. ",
-  "Wants":"Something you would like but is not necessary. ",
-  "Resources":"Something to produce output. ",
-  "Adaptive expectations":"A theory of how people form their views about the future that assumes they do so using past trends and the errors in their own earlier predictions.",
-  "Absolute advantage":"If one person, firm or country can produce more of something with the same amount of effort and resources, they have an absolute advantage.",
-  "Amortisation":"The running down or payment of a loan by instalments.",
-  "Assets":"An resource with economic value that the owner hopes will provide future benefit.",
-  "Autarky":"The idea that a country should be self-sufficient and not participate in international trade.",
-  "Barter":"Paying for goods or services with other goods or services.",
-  "Basis Point":"One one-hundreth of one percent.",
-  "Buyer's Market":"A market where supply is high and prices are low. The opposite to a Seller's Market.",
-  "Closed Economy":"An economy that does not take part in international trade.",
-  "Command Economy":"When a government controls all economic activity.",
-  "Commoditisation":"The process of becoming a commodity.",
-  "Commodity":"A physical substance (food, grains, metals) which is interchangeable with another product of the same type.",
-  "Compound Interest":"Interest payed on the initial price and also on interest gained.",
-  "Contagion":"When economic problems spread from one country to another. (The domino effect)",
-  "Default":"Failure to fulfil the terms of a loan agreement.",
-  "Deficit":"When more money goes out than comes in.",
-  "Disinflation":"When the rate of inflation falls. NOT DEFLATION.",
-  "Dividend":"The part of a company's profit distributed to shareholders.",
-  "Dominant Firm":"The same as a monopoly. When a firm has the ability to set its own prices in the market.",
-  "Dumping":"Selling something for less than the cost of producing it.",
-  "ECB":"The European Central Bank.",
-  "Econometrics":"Mathematics and sophisticated computing applied to economics.",
-  "NAFTA":"Short for North American Free-Trade Agreement",
-  "NAIRU":"The non-accelerating-inflation rate of unemployment",
-  "Loan":"A borrowed sum of money that is expected to be paid back with intrest.",
-  "Economic growth":"growth in output of the economy over time"
+  "terms": [
+    {
+      "name": "Macroeconomics",
+      "desc": "Is the branch of economics dealing with the performance, structure, behaviour and decision making of an economy as a whole.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Microeconomics",
+      "desc": "Is the branch of economics involving the behaviour of individuals and firms in making decisions regarding the allocation of limited resources.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Factors of Production",
+      "desc": "What effects the production of a product, good or service.",
+      "bg": "indigo darken-1",
+      "fg": "white-text"
+    },
+    {
+      "name": "Capital",
+      "desc": "Man-made physical goods used to produce other goods and services.",
+      "bg": "indigo darken-1",
+      "fg": "white-text"
+    },
+    {
+      "name": "Enterprise",
+      "desc": "People who come up with the initial idea (entrepenurs). They risk their own resources.",
+      "bg": "indigo darken-1",
+      "fg": "white-text"
+    },
+    {
+      "name": "Land",
+      "desc": "The natural resource on the planet.",
+      "bg": "indigo darken-1",
+      "fg": "white-text"
+    },
+    {
+      "name": "Labour",
+      "desc": "The human input into the production process. The UK has about 58 million people of which approximately 35 million are of working age.",
+      "bg": "indigo darken-1",
+      "fg": "white-text"
+    },
+    {
+      "name": "Productivity",
+      "desc": "Output per worker per period of time.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Sustainability",
+      "desc": "Having a system where all factors are sustainable.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Primary",
+      "desc": "Where the extraction of raw materials takes place.",
+      "bg": "orange darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Secondary",
+      "desc": "Where raw materials are manufactured into goods.",
+      "bg": "orange darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Tertiary",
+      "desc": "The service sector.",
+      "bg": "orange darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Economies of Scale",
+      "desc": "The larger the company is, the cheaper the cost of production.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Cost",
+      "desc": "What money is spent on land, labour, materials etc.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Revenue",
+      "desc": "The money that is made.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Profit",
+      "desc": "Total revenue - total cost = PROFIT.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Demand",
+      "desc": "When students ask for cake.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Lack of Supply",
+      "desc": "When Poynsenby doesn't provide cake.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Supply",
+      "desc": "When Poynsenby provides cake.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Factors that affect demand",
+      "desc": "Factors that can change the demand rate for diffrent goods.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Population",
+      "desc": "An increase in population leads to an increase of demand.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Advertising",
+      "desc": "An increase in advertising will make customers more likely to buy a product.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Substitutes",
+      "desc": "If a substitute good is cheaper than the original people are more likely to buy it.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Income",
+      "desc": "If income rises so does demand.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Fashion and Trends",
+      "desc": "If something is fashionable or trendy, demand for that product rises.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Interest Rates",
+      "desc": "If interest rates rise people borrowing have less money to spend so demand falls.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Complements",
+      "desc": "If the price of a product falls, demand for another may rise.",
+      "bg": "purple darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Market Economy",
+      "desc": "An economy where all the resources are allocates by the forces of demand and supply with a price attached.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Basic Economic Problem",
+      "desc": "Wants are infinite but resources are not.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Market",
+      "desc": "Where buyers and sellers exchange goods, this doesn't have to be face to face.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Output",
+      "desc": "The number of goods or servics produced by a firm.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Fixed Costs",
+      "desc": "Costs that do not vary with output.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Variable Costs",
+      "desc": "Costs that vary directly with output.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Total Revenue",
+      "desc": "The amount a firm receives from selling its product.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Technology",
+      "desc": "Better tech means better production.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Monopoly",
+      "desc": "A situation in which there is only one firm selling in a market.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Monopoly Power",
+      "desc": "Where a firm has 25% of the market share.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Merger",
+      "desc": "When two companies become one.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Branding",
+      "desc": "The apperance of the company. This can be used to create brand loyalty.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Opportunity Cost",
+      "desc": "The next best alternative faregone when making a choice- what you give up when you make a choice.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Production",
+      "desc": "The process of combining scarce resources to make an output.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Productivity",
+      "desc": "Output per worker per period of time.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Takeover",
+      "desc": "Where one company buys another.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Intergration",
+      "desc": "This occurs when the two firms come together through either a merger or takeover.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Cost barriers",
+      "desc": "Large firms gain internal economies of scale meaning their average cost is low.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Subsidies",
+      "desc": "The government gives you money.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Weather",
+      "desc": "Seasons and weather can affect production.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Goods",
+      "desc": "Are tangible items - things you touch.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Services",
+      "desc": "Something that is provided for you. It is intangible.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Needs",
+      "desc": "Something needed for survival.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Wants",
+      "desc": "Something you would like but is not necessary.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Resources",
+      "desc": "Something to produce output.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Adaptive expectations",
+      "desc": "A theory of how people form their views about the future that assumes they do so using past trends and the errors in their own earlier predictions.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Absolute advantage",
+      "desc": "If one person, firm or country can produce more of something with the same amount of effort and resources, they have an absolute advantage.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Amortisation",
+      "desc": "The running down or payment of a loan by instalments.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Assets",
+      "desc": "An resource with economic value that the owner hopes will provide future benefit.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Autarky",
+      "desc": "The idea that a country should be self-sufficient and not participate in international trade.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Barter",
+      "desc": "Paying for goods or services with other goods or services.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Basis Point",
+      "desc": "One one-hundreth of one percent.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Buyer's Market",
+      "desc": "A market where supply is high and prices are low. The opposite to a Seller's Market.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Closed Economy",
+      "desc": "An economy that does not take part in international trade.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Command Economy",
+      "desc": "When a government controls all economic activity.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Commoditisation",
+      "desc": "The process of becoming a commodity.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Commodity",
+      "desc": "A physical substance (food, grains, metals) which is interchangeable with another product of the same type.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Compound Interest",
+      "desc": "Interest payed on the initial price and also on interest gained.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Contagion",
+      "desc": "Interest payed on the initial price and also on interest gained.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Default",
+      "desc": "Failure to fulfil the terms of a loan agreement.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Deficit",
+      "desc": "When more money goes out than comes in.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Disinflation",
+      "desc": "When the rate of inflation falls. NOT DEFLATION.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Dividend",
+      "desc": "The part of a company's profit distributed to shareholders.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Dominant Firm",
+      "desc": "The same as a monopoly. When a firm has the ability to set its own prices in the market.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Dumping",
+      "desc": "Selling something for less than the cost of producing it.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "ECB",
+      "desc": "The European Central Bank.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Econometrics",
+      "desc": "Mathematics and sophisticated computing applied to economics.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "NAFTA",
+      "desc": "Short for North American Free-Trade Agreement.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "NAIRU",
+      "desc": "The non-accelerating-inflation rate of unemployment.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Loan",
+      "desc": "A borrowed sum of money that is expected to be paid back with intrest.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+    {
+      "name": "Economic growth",
+      "desc": "Growth in output of the economy over time.",
+      "bg": "green darken-2",
+      "fg": "white-text"
+    },
+  ]
 }
